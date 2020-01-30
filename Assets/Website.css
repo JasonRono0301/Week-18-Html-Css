@@ -1,12 +1,12 @@
 body {
     background-color: white;
     margin: 0;
+    padding: 0;
     font-family: 'Archivo', sans-serif;
-    font-size: 100%;
   }
 
   .container{
-    max-width: 100%;
+    max-width: 95%;
     margin: 0;
   }
 
@@ -28,6 +28,7 @@ body {
 }
 
 .drop{
+    overflow: hidden;
     float: left;
     font-size: 4em;
     padding-top: 5%;
@@ -48,7 +49,7 @@ body {
 
 .proefles{
     font-size: 3em;
-    margin-left: 5em;
+    margin-left: 1em;
 }
 
 .line{
@@ -59,6 +60,37 @@ body {
 }
 
 .p1{
-    padding-top: 35em;
-    padding-left: 30em;
+    position: absolute;
+    left: 47em;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #5f656d;
+}
+
+.proeflesblok{
+    position: absolute;
+    padding-left: 10em;
+    padding-right: 10em;
+    top: 50rem;
+    left: 35em;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 10em;
+    background-color: rgba(255, 166, 0, 0.735);
+    border-style: solid;
+    border-color: orange;
+}
+
+.locaties{
+    font-size: 3em;
+    margin-left: 4em;
+    margin-top: 18em;
+}
+.line2{
+    margin-top: 60em;
+    height: 1%;
+    padding-right: 45em;
+    background-color:gray;
+    margin-right: 100%;
 }
