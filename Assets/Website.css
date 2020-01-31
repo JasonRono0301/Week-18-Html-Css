@@ -3,17 +3,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Archivo', sans-serif;
+    font-size: 100%;
   }
 
   .container{
-    max-width: 95%;
-    margin: 0;
+  max-width: 100%;
+  margin: 0;
   }
 
 .grid-container{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 8em;
+    grid-template-rows: 25% 25% 25% 25%;
 
 }
 .mobiel{
@@ -55,7 +56,7 @@ body {
 .line{
     margin-left: 50%;
     height: 1%;
-    padding-left: 47em;
+    padding-left: 45em;
     background-color:gray;
 }
 
@@ -84,13 +85,58 @@ body {
 
 .locaties{
     font-size: 3em;
-    margin-left: 4em;
-    margin-top: 18em;
+    margin-left: 1em;
+    margin-top: 7em;
+    padding-top: 1em;
 }
 .line2{
-    margin-top: 60em;
+    margin-top: 2em;
     height: 1%;
     padding-right: 45em;
     background-color:gray;
     margin-right: 100%;
+}
+
+.hoedje{
+    font-size: 3em;
+    margin-left: 1em;
+    margin-top: 4em;
+    padding-top: 1em;
+}
+
+.line3{
+    margin-top: 2em;
+    height: 1%;
+    padding-right: 45em;
+    background-color:gray;
+    margin-right: 100%;
+}
+
+.filmpje{
+    width: 25em;
+    height: 11em;
+    padding-top: 15em;
+    margin-left: 11em;
+}
+
+@media (min-width: 765px){
+    .mobiel{display: none;
+    width: 100%;}
+    .p1{overflow: hidden;}
+}
+.computer{
+    overflow-x: hidden;
+}
+.bannerc{
+    width: 100%;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.logo2{
+    margin-left: 15%;
+}
+
+.inline-menu{
+    display: inline;
 }
